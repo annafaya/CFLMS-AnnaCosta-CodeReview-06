@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+
+* {
+margin: 0;
+box-sizing: border-box;
+font-family: 'Fjalla One', sans-serif;
+}
+
+.rio {
+	padding: 2.6vw;
+}
+.hero {
+
+padding-bottom: 1vw;
+height: 70%;
+background-image: url("../img/hero.jpg");
+background-size: cover;
+
+}
+
+.container {
+	padding-top: 1vw;
+}
+.container img {
+
+width: 100%;
+
+}
+
+.h4 {
+padding-top: 1vw;
+padding-bottom: 1vw;
+
+}
+
+li {
+	text-decoration: none;
+}
