@@ -3,7 +3,6 @@ var array = new Array();
 class Locations {
     name:"";
     city:"";
-
     address:"";
     img:"";
     type:"";
@@ -11,10 +10,9 @@ class Locations {
     constructor(name,city,address,img,type){
         this.name=name;
         this.city = city;
-
         this.address=address;
         this.img=img;
-        this.type=type; // For making it easier to display stuff (place/restaurant/event)
+        this.type=type; 
     }
 
     displayPlace(){
@@ -130,7 +128,6 @@ function displayEvents(){
 };
 
 
-// creating Locations
 array.push(new Locations("Cristo Redentor", "Rio de Janeiro", "Rua Cosme Velho, 513", "img/cristo.jpg", "place"));
 array.push(new Locations("Sugar Loaf Cable Car", "Rio de Janeiro", "Av. Pasteur, 520", "img/bondinho.jpg", "place"));
 array.push(new Locations("Museum of Contemporany Art", "Niterói", "Mirante da Boa Viagem", "img/mac.jpg", "place"));
@@ -146,7 +143,7 @@ array.push(new Events("Roda de Samba", "Rio de Janeiro", "Arco do Teles", "img/s
 array.push(new Events("Forest Hiking", "Floresta da Tijuca", "Estrada da Gávea, 870", "img/pedra.jpg", "event", "28.06.2020", "At: 07:00", "€ 25,00"));
 array.push(new Events("Carnival Rehearsal", "HUB", "Av. Prof. Pereira Reis, 54-80", "img/amigos.jpg", "event", "26.06.2020", "At: 22:00", "€ 5,00"));
 
-// displaying everything inside the HTML w/ jQuery
+
 displayPlaces();
 displayRestaurants();
 displayEvents();
