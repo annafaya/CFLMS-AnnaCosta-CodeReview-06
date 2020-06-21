@@ -15,6 +15,7 @@ font-family: 'Fjalla One', sans-serif;
 .hero {
 
 padding-bottom: 1vw;
+width: 101%;
 height: 70%;
 background-image: url("../img/hero.jpg");
 background-size: cover;
