@@ -21,7 +21,7 @@ var Locations = /** @class */ (function () {
         this.type = type;
     }
     Locations.prototype.displayPlace = function () {
-        return "<div class=\"col-lg-3 col-md-6 col-sm-12\">\n        <div class=\"img_scale description\">\n        <a href=\"#\">\n        <img class=\"d-sm-none d-md-block\" src=\"" + this.img + "\" alt=\"" + this.name + "\"></a>\n        <hr>\n        </div>\n        <div class=\"col-lg-12 col-md-1 col-sm-12 text-secondary\">\n        <h4 class=\"h4\">" + this.name + "</h4>\n        <p><b>Address:</b><br> " + this.address + ", " + this.city + "</p>\n      \n        </div>\n        </div>";
+        return "<div class=\"col-lg-3 col-md-6 col-sm-12\">\n        <div class=\"img_scale description\">\n        <a href=\"#\">\n        <img class=\"d-sm-none d-md-block\" src=\"" + this.img + "\" alt=\"" + this.name + "\"></a>\n        <hr>\n        </div>\n        <div class=\"col-lg-12 col-md-2 col-sm-12 text-secondary\">\n        <h4 class=\"h4\">" + this.name + "</h4>\n        <p><b>Address:</b><br> " + this.address + ", " + this.city + "</p>\n      \n        </div>\n        </div>";
     };
     return Locations;
 }());
@@ -36,7 +36,7 @@ var Restaurants = /** @class */ (function (_super) {
         return _this;
     }
     Restaurants.prototype.displayRestaurant = function () {
-        return "<div class=\"col-lg-3 col-lg col-md-6 col-sm-12\">\n        <div class=\"img_scale description\">\n        <a href=\"#\">\n        <img class=\"d-sm-none d-md-block\" src=\"" + this.img + "\" alt=\"" + this.name + "\"></a>\n        <hr>\n        </div>\n        <div class=\"col-lg-12 col-md-1 col-sm-12 text-secondary\">\n        <h4 class=\"h4\">" + this.name + "</h4>\n        <p><b>Address:</b><br> " + this.address + ", <br>" + this.city + "</p>\n        <p><b>Type:</b><br> " + this.food_type + "</p>\n        <p><b>Phone:</b><br> " + this.number + "</p>\n        <p><b>Website:</b><br> <a href=\"" + this.website + "\" class=\"text-danger\">" + this.website + "</a></p>\n   \n        </div>\n        </div>";
+        return "<div class=\"col-lg-3 col-lg col-md-6 col-sm-12\">\n        <div class=\"img_scale description\">\n        <a href=\"#\">\n        <img class=\"d-sm-none d-md-block\" src=\"" + this.img + "\" alt=\"" + this.name + "\"></a>\n        <hr>\n        </div>\n        <div class=\"col-lg-12 col-md-2 col-sm-12 text-secondary\">\n        <h4 class=\"h4\">" + this.name + "</h4>\n        <p><b>Address:</b><br> " + this.address + ", <br>" + this.city + "</p>\n        <p><b>Type:</b><br> " + this.food_type + "</p>\n        <p><b>Phone:</b><br> " + this.number + "</p>\n        <p><b>Website:</b><br> <a href=\"" + this.website + "\" class=\"text-danger\">" + this.website + "</a></p>\n   \n        </div>\n        </div>";
     };
     return Restaurants;
 }(Locations));
@@ -51,7 +51,7 @@ var Events = /** @class */ (function (_super) {
         return _this;
     }
     Events.prototype.displayEvents = function () {
-        return "<div class=\"col-lg-3 col-md-6 col-sm-12 w-100\">\n        <div class=\"img_scale description\">\n        <a href=\"#\">\n        <img class=\"d-sm-none d-md-block\" src=\"" + this.img + "\" alt=\"" + this.name + "\"></a>\n        <hr>\n        </div>\n        <div class=\"col-lg-12 col-md-1 col-sm-12 text-secondary\">\n        <h4 class=\"h4\">" + this.name + "</h4>\n        <p><b>Address:</b><br> " + this.address + ", <br>" + this.city + "</p>\n        <p><b>When:</b><br> " + this.date + ", " + this.time + "</p>\n        <p><b>Price:</b><br> " + this.entry + "</p>\n   \n        </div>\n        </div>";
+        return "<div class=\"col-lg-3 col-md-6 col-sm-12 w-100\">\n        <div class=\"img_scale description\">\n        <a href=\"#\">\n        <img class=\"d-sm-none d-md-block\" src=\"" + this.img + "\" alt=\"" + this.name + "\"></a>\n        <hr>\n        </div>\n        <div class=\"col-lg-12 col-md-2 col-sm-12 text-secondary\">\n        <h4 class=\"h4\">" + this.name + "</h4>\n        <p><b>Address:</b><br> " + this.address + ", <br>" + this.city + "</p>\n        <p><b>When:</b><br> " + this.date + ", " + this.time + "</p>\n        <p><b>Price:</b><br> " + this.entry + "</p>\n   \n        </div>\n        </div>";
     };
     return Events;
 }(Locations));

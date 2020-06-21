@@ -22,7 +22,7 @@ class Locations {
         <img class="d-sm-none d-md-block" src="${this.img}" alt="${this.name}"></a>
         <hr>
         </div>
-        <div class="col-lg-12 col-md-1 col-sm-12 text-secondary">
+        <div class="col-lg-12 col-md-2 col-sm-12 text-secondary">
         <h4 class="h4">${this.name}</h4>
         <p><b>Address:</b><br> ${this.address}, ${this.city}</p>
       
@@ -49,7 +49,7 @@ class Restaurants extends Locations {
         <img class="d-sm-none d-md-block" src="${this.img}" alt="${this.name}"></a>
         <hr>
         </div>
-        <div class="col-lg-12 col-md-1 col-sm-12 text-secondary">
+        <div class="col-lg-12 col-md-2 col-sm-12 text-secondary">
         <h4 class="h4">${this.name}</h4>
         <p><b>Address:</b><br> ${this.address}, <br>${this.city}</p>
         <p><b>Type:</b><br> ${this.food_type}</p>
@@ -80,7 +80,7 @@ class Events extends Locations {
         <img class="d-sm-none d-md-block" src="${this.img}" alt="${this.name}"></a>
         <hr>
         </div>
-        <div class="col-lg-12 col-md-1 col-sm-12 text-secondary">
+        <div class="col-lg-12 col-md-2 col-sm-12 text-secondary">
         <h4 class="h4">${this.name}</h4>
         <p><b>Address:</b><br> ${this.address}, <br>${this.city}</p>
         <p><b>When:</b><br> ${this.date}, ${this.time}</p>
